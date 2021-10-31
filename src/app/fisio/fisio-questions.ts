@@ -104,6 +104,13 @@ export const fisioQuestions = [
     { text: 'Haptoglobina', symbol: 'mg/ml', range: { min: 41, max: 165 } },
     { text: 'LDH', symbol: 'UI/L', range: { min: 190, max: 390 } },
     { text: 'Homocisteína', symbol: 'µmol/L', range: { min: 5, max: 12 } },
+    { text: 'Frecuencia respiratoria', symbol: '/minuto', range: { min: 12, max: 20 } },
+    { text: '[HCO3-]', symbol: 'mEq/L', range: { min: 22, max: 26 } },
+    { text: '[Na+]', symbol: 'µmol/L', range: { min: 135, max: 145 } },
+    { text: '[K+]', symbol: 'µmol/L', range: { min: 3.5, max: 5 } },
+    { text: 'Creatinina', symbol: 'mg/dl', range: { min: 0.5, max: 1.3 } },
+    { text: 'pCO2', symbol: 'mmHg', range: { min: 35, max: 45 } },
+    { text: 'pH', symbol: '', range: { min: 7.35, max: 7.45 } },
 ];
 
 export const fisioOptions = {
