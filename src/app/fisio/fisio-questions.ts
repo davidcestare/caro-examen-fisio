@@ -95,6 +95,15 @@ export const fisioQuestions = [
             max: 150
         }
     },
+    { text: 'TIBC', symbol: 'µg/dl', range: { min: 250, max: 400 } },
+    { text: 'Sat. de Tf', symbol: '%', range: { min: 20, max: 35 } },
+    { text: 'GB - Adulto', symbol: '/mm3', range: { min: 4000, max: 10000 } },
+    { text: 'GB - Recién nacido', symbol: '/mm3', range: { min: 9000, max: 30000 } },
+    { text: 'Plaquetas', symbol: '/mm3', range: { min: 150000, max: 400000 } },
+    { text: 'Reticulocitos', symbol: '/mm3', range: { min: 50000, max: 100000 } },
+    { text: 'Haptoglobina', symbol: 'mg/ml', range: { min: 41, max: 165 } },
+    { text: 'LDH', symbol: 'UI/L', range: { min: 190, max: 390 } },
+    { text: 'Homocisteína', symbol: 'µmol/L', range: { min: 5, max: 12 } },
 ];
 
 export const fisioOptions = {

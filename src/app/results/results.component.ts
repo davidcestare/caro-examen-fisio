@@ -18,7 +18,7 @@ export class ResultsComponent implements OnInit {
 
   ngOnInit(): void {
     if (this.cantidadPreguntas != 0) {
-      this.porcentaje = this.totalRespuestasCorrectas / this.cantidadPreguntas;
+      this.porcentaje = (this.totalRespuestasCorrectas / this.cantidadPreguntas) * 100;
     }
   }
 
