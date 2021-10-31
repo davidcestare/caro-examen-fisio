@@ -44,7 +44,7 @@
       <!-- Terminal -->
       <div class="terminal">
         <pre class="terminal-title">{{indexOfelement +1 }} - {{question.text}}</pre>
-        <pre>El valor: <strong>{{question.randomValue | number: '1.0-4'}} {{question.symbol}}</strong> es:</pre>
+        <pre>El valor <strong><i>{{question.randomValue | number: '1.0-1'}} {{question.symbol}}</i></strong> es:</pre>
         <div class="radio-group-container">
           <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
             [(ngModel)]="question.response" name="{{question.id}}" required>

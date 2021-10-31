@@ -72,7 +72,12 @@ export class FisioComponent implements OnInit {
       randomNumberInInterval += (max - min) * Math.random();
     }
 
-    return Math.floor(randomNumberInInterval);
+    if (randomNumberInInterval < 0) {
+      randomNumberInInterval = randomNumberInInterval * -1;
+    }
+
+    return randomNumberInInterval;
+    // return Math.floor(randomNumberInInterval);
   }
 
   onSubmit(form: any) {
@@ -111,10 +116,10 @@ export class FisioComponent implements OnInit {
     (function smoothscroll() {
       var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
       if (currentScroll > 0) {
-          window.requestAnimationFrame(smoothscroll);
-          window.scrollTo(0, currentScroll - (currentScroll / 8));
+        window.requestAnimationFrame(smoothscroll);
+        window.scrollTo(0, currentScroll - (currentScroll / 8));
       }
-  })()
+    })()
   }
 }
 

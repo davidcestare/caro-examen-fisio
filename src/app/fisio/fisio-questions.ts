@@ -106,11 +106,22 @@ export const fisioQuestions = [
     { text: 'Homocisteína', symbol: 'µmol/L', range: { min: 5, max: 12 } },
     { text: 'Frecuencia respiratoria', symbol: '/minuto', range: { min: 12, max: 20 } },
     { text: '[HCO3-]', symbol: 'mEq/L', range: { min: 22, max: 26 } },
-    { text: '[Na+]', symbol: 'µmol/L', range: { min: 135, max: 145 } },
-    { text: '[K+]', symbol: 'µmol/L', range: { min: 3.5, max: 5 } },
+    { text: '[Na+] en sangre', symbol: 'µmol/L', range: { min: 135, max: 145 } },
+    { text: '[K+] en sangre', symbol: 'µmol/L', range: { min: 3.5, max: 5 } },
     { text: 'Creatinina', symbol: 'mg/dl', range: { min: 0.5, max: 1.3 } },
     { text: 'pCO2', symbol: 'mmHg', range: { min: 35, max: 45 } },
     { text: 'pH', symbol: '', range: { min: 7.35, max: 7.45 } },
+
+    { text: 'Neutrófilos en cayado', symbol: '%', range: { min: 1, max: 5 } },
+    { text: 'Neutrófilos', symbol: '%', range: { min: 50, max: 65 } },
+    { text: 'Eosinófilos', symbol: '%', range: { min: 0, max: 5 } },
+    { text: 'Basófilos', symbol: '%', range: { min: 0, max: 1 } },
+    { text: 'Linfocitos', symbol: '%', range: { min: 20, max: 45 } },
+    { text: 'Monocitos', symbol: '%', range: { min: 1, max: 10 } },
+    { text: 'Relación mielo-eritroide', symbol: ':1', range: { min: 1.5, max: 3.5 } },
+    { text: 'Eritrocedimentación - hombres', symbol: 'mm/h', range: { min: 12, max: 15 } },
+    { text: 'Eritrocedimentación - mujeres (nota: tengo dudas en el valor hasta)', symbol: 'mm/h', range: { min: 12, max: 18 } },
+
 ];
 
 export const fisioOptions = {
